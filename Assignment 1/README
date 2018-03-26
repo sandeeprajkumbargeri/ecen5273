@@ -1,0 +1,21 @@
+Author: Sandeep Raj Kumbargeri
+Date: 9/24/17
+
+The client and the server programs implement FTP using UDP with the following mentioned functionality features:
+
+1. List files on the server
+2. Upload a file to the server
+3. Download a file from the server
+4. Delete a file from the server
+5. Exit the server
+
+Additioanlly, they implement the following capabilities for security and fail-proof support:
+
+1. XOR Encryption
+2. Internet checksum verification
+3. File integrity (reliable transfer)
+
+To build the .c files, perform make in the terminal.
+
+Server Usage: ./server <port_number>
+Client Usage: ./client <server_ip_address> <server_port_number>
